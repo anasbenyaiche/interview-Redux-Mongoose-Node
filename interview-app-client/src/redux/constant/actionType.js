@@ -1,0 +1,5 @@
+export default {
+    ADD_USER: 'ADD_USER',
+    PICTURE_ADDED:'PICTURE_ADDED',
+    FETCH_USER: 'FETCH_USER'
+  }
