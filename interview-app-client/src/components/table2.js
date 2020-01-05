@@ -9,7 +9,7 @@ import Paper from "material-ui/Paper";
 import { getFormValues } from "redux-form";
 import { connect } from "react-redux";
 
-const SimpleTable = ({ values = { members: [{firstName:"Anas",lastName:"Ben Yaiche",birthYear:1990,birthPlace:"Tunis"}] } }) => (
+const SimpleTable = ({ values = { members: [{firstName:"Anas",lastName:"Ben Yaiche",birthYear:1990,birthPlace:"Tunis"},{firstName:"Anas",lastName:"Ben Yaiche",birthYear:1990,birthPlace:"Tunis"},{firstName:"Anas",lastName:"Ben Yaiche",birthYear:1990,birthPlace:"Tunis"}] } }) => (
   <Paper>
     <Table>
       <TableHead>
